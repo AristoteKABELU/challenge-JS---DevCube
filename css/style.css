@@ -1,0 +1,19 @@
+body
+{
+    text-align: center;
+    background-color: #006699;
+}
+h1
+{
+    color: white;
+}
+p{
+    font-weight: bold;
+    color: aliceblue;
+}
+button
+{
+    padding: 10px;
+    border-color:unset;
+    border-radius: 20px;
+}
