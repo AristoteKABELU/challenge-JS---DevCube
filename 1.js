@@ -32,4 +32,6 @@ switch(number)
     case 10:
         console.log('Vous avez le chiffre ' + number);
         break;
+    default:
+        console.log('Vous avez echoué')
 }

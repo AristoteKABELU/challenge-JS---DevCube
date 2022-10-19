@@ -1,9 +1,9 @@
 let age = prompt('Entrez votre age:');
-if(age == 0)
+if(age < 0)
 {
-    console.log("Vous n.avez pas d'age");
+    console.log("Vous n'avez pas d'age");
 }
-else if(age >0 && age < 5)
+else if(age > 0 && age < 5)
 {
     console.log("Vous etes bebe");
 }
