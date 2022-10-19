@@ -4,7 +4,7 @@ let year;
 while(population_ny < population_rdc)
 {
     population_rdc += 30000000;
-    population_ny += (population_ny * 0.2);
+    population_ny += (population_ny * 0.02);
     year++;
 }
 console.log(year);
